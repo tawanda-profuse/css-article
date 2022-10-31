@@ -11,12 +11,12 @@ To start off, I've created a folder and inside it, created a file and called it 
 To configure Emmet, click on the gear icon ⚙ which opens your local settings. In the search bar of your settings, type **emmet**. A list of items will populate the page and you should select the first one that has the heading **Emmet: Exclude Languages**. Click on the 'Add item' button and in the input field that displays, type 'markdown' then click 'Ok'. Here is a [helpful article](https://code.visualstudio.com/docs/editor/emmet) about the right way to configure emmet.
 
 **A screenshot of VS Code that shows the settings menu**:
-![A screenshot of VS Code that shows the settings menu](settings)
+![A screenshot of VS Code that shows the settings menu](https://github.com/tawanda-profuse/css-article/blob/master/pictures/settings.png?raw=true)
 
 If properly configured, this should enable emmets features in our local development files. Back into our index.html file, type in the exclamation mark (**!**). This will bring up a context menu that suggests some code to auto-fill. If you hit the **tab** key, the text will be filled into the HTML file as shown below.
 
 **A screenshot of an html file in VS Code with emmet auto-fill**:
-![A screenshot of an html file in VS Code with emmet auto-fill](emmet)
+![A screenshot of an html file in VS Code with emmet auto-fill](https://github.com/tawanda-profuse/css-article/blob/master/pictures/emmet.png?raw=true)
 
 This automatically produces the following code in the file:
 
@@ -42,7 +42,7 @@ In the root of the project folder, I'll create a file and name it **styles.css**
 In this article, I will try to create a web page that is inspired by the formation of my favorite English Premier League team, Manchester United. Here is the [live link](https://tawanda-profuse.github.io/css-article/).
 
 **An image of the Manchester United logo**:
-![An image of the Manchester United logo](man-united-logo)
+![An image of the Manchester United logo](https://github.com/tawanda-profuse/css-article/blob/master/pictures/man-united-logo.png?raw=true)
 
 **An image of the Manchester United formation**
 ![An image of the Manchester United formation](man-united-formation)
@@ -116,7 +116,7 @@ To style the elements on the page, we'll re-use some CSS properties and change s
 One other benefit of using **Emmet** in HTML is that it can auto-complete class names. For example, if I wanted to create a division tag with a class name of 'example', I could simply type the period symbol followed by the class name and Emmet will bring up a suggestion (**.example**).
 
 **An screenshot in VS Code that shows Emmet auto completing a class name**:
-![An screenshot in VS Code that shows Emmet auto completing a class name](example)
+![An screenshot in VS Code that shows Emmet auto completing a class name](https://github.com/tawanda-profuse/css-article/blob/master/pictures/example.png?raw=true)
 
 To avoid the redundant use of code, we may need to create a class called **players** which holds all of the values that will apply to the elements that represent all 11 soccer players on the field as shown below.
 
