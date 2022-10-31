@@ -1,0 +1,140 @@
+body{
+    background: green;
+    display: flex;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.playing-field{
+    border: 5px solid white;
+    background-color: green;
+    height: 100vh;
+    width: 70%;
+    position: relative;
+    margin: auto;
+}
+.top-eighteen-area{
+    padding: 50px 50px;
+    border: 10px solid white;
+    width: 300px;
+    margin: auto;
+    position: absolute;
+    top: 0;
+    left: 30%;
+}
+.top-sixteen-area{
+    padding: 25px 25px;
+    border: 5px solid white;
+    width: 150px;
+    margin: auto;
+    position: absolute;
+    top: 0;
+    left: 24%;
+}
+.bottom-eighteen-area{
+    padding: 50px 50px;
+    border: 10px solid white;
+    width: 300px;
+    margin: auto;
+    position: absolute;
+    bottom: 0;
+    left: 30%;
+}
+.bottom-sixteen-area{
+    padding: 25px 25px;
+    border: 5px solid white;
+    width: 150px;
+    margin: auto;
+    position: absolute;
+    bottom: 0;
+    left: 24%;
+}
+.center-circle{
+    position: absolute;
+    left: 42%;
+    top: 40%;
+    border: 10px solid white;
+    border-radius: 50%;
+    padding: 20px 20px;
+    width: 100px;
+    height: 100px;
+}
+.center-line{
+    top: 50%;
+    background: white;
+    width: 100%;
+    position: absolute;
+    height: 10px;
+}
+.players{
+    background-color: red;
+    border: 2px solid black;
+    border-radius: 50%;
+    font-size: 30px;
+    color: white;
+    text-align: center;
+    z-index: 2;
+    padding: 5px 5px;
+    position: absolute;
+
+}
+.goal-keeper{
+    left: 45%;
+    bottom: 20%;
+}
+.center-defender-1{
+    left: 30%;
+    bottom: 20%;
+}
+.center-defender-2{
+    right: 30%;
+    bottom: 20%;
+}
+.right-back{
+    right: 10%;
+    bottom: 35%;
+}
+.left-back{ 
+    left: 10%;
+    bottom: 35%;
+}
+.center-mid-1{
+    left: 30%;
+    bottom: 45%; 
+}
+.center-mid-2{
+    right: 30%;
+    bottom: 45%; 
+}
+.right-wing{
+    right: 10%;
+    top: 15%;
+}
+.left-wing{
+    left: 10%;
+    top: 15%;
+}
+.attacking-mid{
+    left: 47%;
+    top: 30%;
+}
+.striker{
+    left: 45%;
+    top: 20%;
+}
+.count-info{
+    display: flex;
+    border: 5px solid navy;
+    border-radius: 10px;
+    background: white;
+    position: absolute;
+    box-shadow: 2px 2px 2px 2px black;
+    width: 300px;
+    z-index: 3;
+}
+.count-info img{
+    width: 150px;
+    margin-right: 20px;
+}
+.count-info h1{
+    font-size: 30px;
+    padding: 10px 5px;
+}
