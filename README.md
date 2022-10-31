@@ -39,7 +39,7 @@ This automatically produces the following code in the file:
 
 In the root of the project folder, I'll create a file and name it **styles.css**. Then, in the index.html file, include it by adding the following code in-between the two **<head>** tags. Typing in `<link rel="stylesheet" href="styles.css">` will achieve that. Check out my other article about [HTML](https://andrew-tech-blog.herokuapp.com/article/exploring-the-hypertext-markup-language).
 
-In this article, I will try to create a web page that is inspired by the formation of my favorite English Premier League team, Manchester United. Here is the [live link]().
+In this article, I will try to create a web page that is inspired by the formation of my favorite English Premier League team, Manchester United. Here is the [live link](https://tawanda-profuse.github.io/css-article/).
 
 **An image of the Manchester United logo**:
 ![An image of the Manchester United logo](man-united-logo)
@@ -201,7 +201,7 @@ The next thing to take care of is the clocks functionality. The key to doing tha
 
 The function named **timer** takes care of the conditional logic of the clock. For example, when the seconds reach 0, the minutes should decrease by 1 and vice-versa. Calling this function inside an Event Listener will execute the contents of the code block. An important aspect of making the clock run, is the **setInverval()** method; JavaScript's in-built timer. It executes the contents of it's body `{}` in milliseconds which are specified as a callback parameter. In this case it's 1000 which is equal to 1 second.
 
-CSS is a fantastic tool because without it our web pages look dull. This web page makes use of CSS position absolute to place the elements as we want them. The source code is available on [GitHub]().
+CSS is a fantastic tool because without it our web pages look dull. This web page makes use of CSS position absolute to place the elements as we want them. The source code is available on [GitHub](https://github.com/tawanda-profuse/css-article).
 
 ### Thank you for reading
 
