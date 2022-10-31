@@ -45,7 +45,7 @@ In this article, I will try to create a web page that is inspired by the formati
 ![An image of the Manchester United logo](https://github.com/tawanda-profuse/css-article/blob/master/pictures/man-united-logo.png?raw=true)
 
 **An image of the Manchester United formation**
-![An image of the Manchester United formation](man-united-formation)
+![An image of the Manchester United formation](https://github.com/tawanda-profuse/css-article/blob/master/pictures/man-united-formation.jpg?raw=true)
 
 To begin with, we'll need to layout the soccer field. I'll use a green background as well as several division tags, which are positioned using the **absolute** value.
 
@@ -201,7 +201,7 @@ The next thing to take care of is the clocks functionality. The key to doing tha
 
 The function named **timer** takes care of the conditional logic of the clock. For example, when the seconds reach 0, the minutes should decrease by 1 and vice-versa. Calling this function inside an Event Listener will execute the contents of the code block. An important aspect of making the clock run, is the **setInverval()** method; JavaScript's in-built timer. It executes the contents of it's body `{}` in milliseconds which are specified as a callback parameter. In this case it's 1000 which is equal to 1 second.
 
-CSS is a fantastic tool because without it our web pages look dull. This web page makes use of CSS position absolute to place the elements as we want them. The source code is available on [GitHub](https://github.com/tawanda-profuse/css-article).
+CSS is a fantastic tool because our web pages look dull without it. This web page uses CSS position absolute to place the elements as we want. The source code is available on [GitHub](https://github.com/tawanda-profuse/css-article).
 
 ### Thank you for reading
 
